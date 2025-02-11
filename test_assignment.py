@@ -1,10 +1,10 @@
-import io
+# import io
 import sys
-import pytest
+# import pytest
 # import assignment  # Assumes the student's solution is in assignment.py
 
 import nbconvert
-import io
+# import io
 
 def notebook_to_python(notebook_path):
     """Convert Jupyter notebook to Python script"""
@@ -14,7 +14,7 @@ def notebook_to_python(notebook_path):
 
 # In test file
 import importlib.util
-import sys
+# import sys
 
 def import_notebook_module(notebook_path):
     """Dynamically import notebook as a module"""
